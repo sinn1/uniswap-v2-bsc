@@ -1,17 +1,18 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "uniswap-v2-bsc",
   "license": "MIT",
   "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "description": "🛠 An SDK for building applications on top of Uniswap clones on BSC",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/sinn1/uniswap-v2-bsc",
   "keywords": [
     "uniswap",
-    "ethereum"
+    "ethereum",
+    "bsc"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
