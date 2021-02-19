@@ -18,11 +18,10 @@ var providers = require('@ethersproject/providers');
 var IUniswapV2Pair = _interopDefault(require('@uniswap/v2-core/build/IUniswapV2Pair.json'));
 
 var _SOLIDITY_TYPE_MAXIMA;
-var ChainId;
 
 (function (ChainId) {
   ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
-})(ChainId || (ChainId = {}));
+})(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
   TradeType[TradeType["EXACT_INPUT"] = 0] = "EXACT_INPUT";
@@ -433,7 +432,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WBNB = (_WBNB = {}, _WBNB[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'), _WBNB);
+var WBNB = (_WBNB = {}, _WBNB[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'), _WBNB);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
@@ -1585,4 +1584,4 @@ exports.WBNB = WBNB;
 exports.currencyEquals = currencyEquals;
 exports.inputOutputComparator = inputOutputComparator;
 exports.tradeComparator = tradeComparator;
-//# sourceMappingURL=sdk.cjs.development.js.map
+//# sourceMappingURL=uniswap-v2-bsc.cjs.development.js.map

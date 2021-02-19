@@ -1563,5 +1563,5 @@ var Fetcher = /*#__PURE__*/function () {
   return Fetcher;
 }();
 
-export { BNB, Currency, CurrencyAmount, Fetcher, Fraction, InsufficientInputAmountError, InsufficientReservesError, MINIMUM_LIQUIDITY, Pair, Percent, Price, Rounding, Route, Router, Token, TokenAmount, Trade, TradeType, WBNB, currencyEquals, inputOutputComparator, tradeComparator };
-//# sourceMappingURL=sdk.esm.js.map
+export { BNB, ChainId, Currency, CurrencyAmount, Fetcher, Fraction, InsufficientInputAmountError, InsufficientReservesError, MINIMUM_LIQUIDITY, Pair, Percent, Price, Rounding, Route, Router, Token, TokenAmount, Trade, TradeType, WBNB, currencyEquals, inputOutputComparator, tradeComparator };
+//# sourceMappingURL=uniswap-v2-bsc.esm.js.map
